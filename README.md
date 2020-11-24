@@ -115,6 +115,6 @@ Feedstock Maintainers
 =====================
 
 * [@jli](https://github.com/jli/)
-* [@muzigao-gro](https://github.com/muzigao-gro/)
+* [@muzigao](https://github.com/muzigao/)
 * [@nemozen](https://github.com/nemozen/)
 
