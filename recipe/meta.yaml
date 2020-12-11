@@ -1,5 +1,5 @@
 {% set name = "groclient" %}
-{% set version = "1.98.0" %}
+{% set version = "1.100.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/groclient-{{ version }}.tar.gz
-  sha256: 3996efa858834f4a3bb72e9deb82ef67ca477e6085fcacb6adc2fa171436d219
+  sha256: 44aebbaf30d9e090fae03f556bafa86b083d230e57e7f21e3cf71e440b957ff7
 
 build:
   number: 0
