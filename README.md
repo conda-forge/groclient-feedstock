@@ -1,11 +1,11 @@
-About groclient
-===============
+About groclient-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/groclient-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.gro-intelligence.com/products/gro-api
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/groclient-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python client library for accessing Gro Intelligence's agricultural data platform
 
