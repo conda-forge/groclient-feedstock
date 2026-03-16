@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/groclient-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/groclient-{{ version }}.tar.gz
   sha256: 008b4838d3be5cd0c6781f68213b47ed726d0b9442c41746c611f598d21793a5
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - gro_client = groclient.__main__:main
@@ -20,12 +20,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6,<4.0
+    - python {{ python_min }}
     - poetry-core >=1.0.0,<2.0.0
   run:
     - numpy
     - pandas
-    - python >=3.6,<4.0
+    - python >={{ python_min }},<4.0
     - requests
     - tornado
     - unicodecsv
@@ -39,6 +39,7 @@ test:
     - gro_client --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://www.gro-intelligence.com/products/gro-api
